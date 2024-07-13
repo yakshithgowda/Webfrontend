@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FlexStart Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Jun 19 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+
+select.form-control{
+      opacity: 60%;
+      border-color: rgb(151, 150, 150);
+      height: 50px;
+    }
+    input.form-control{
+      opacity: 80%;
+      border-color: rgb(193, 191, 191);
+      height: 50px;
+    }
+</style>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/pranavcabslogo.png" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#service">Services</a></li>
+          <li><a class="nav-link scrollto" href="#vehicle">Vehicles</a></li>
+          <li><a class="nav-link scrollto" href="#place">Places</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">GET STARTED</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row mt-75">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Welcome to Pranav Cabs </h1>
+         
+          <h3 data-aos="fade-up" data-aos-delay="400">Anytime Anywhere</h3>
+            <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <i class="bi bi-car-front" style="font-size:20px;"></i>  &nbsp;&nbsp;&nbsp;&nbsp;<b>BOOK NOW</b>&nbsp;&nbsp;
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+            <h2 data-aos="fade-up" style="margin-top: 45px; margin-bottom: 10px;">Contact us for instant services</h2>
+            <p data-aos="fade-up" style="margin-top: 10px; margin-bottom: 10px; font-size: 30px; color: #012970;"><b>Call Now @ 9740766036</b></p>
+            
+          </div>
+       
+          <div class="col-lg-6 hero-img d-flex align-items-center" data-aos-delay="50">
+            <img src="assets/img/crysta1.png" class="img-fluid" alt="width:400px;" style=" width: 1000px; height: 275px;">
+          </div>
+
+
+
+          </div>
+         
+          
+        
+      </div>
+     
+  </section><!-- End Hero -->
+
+  
+    
+    <!-- ======= About Section ======= -->
+    <section id="booking" class="booking">
+
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+
+          <div class="col-lg-12 d-flex flex-column justify-content-center">
+            
+           <div class="content">
+              <div class="container-fluid">
+              
+                <div class="row">
+                  <div class="col-md-2 mb-3">
+                    <input type="text" class="form-control" placeholder="Pickup Location">
+                </div>
+                  <div class="col-md-2 mb-3">
+                    <input type="text" class="form-control" placeholder="Drop Location">
+                  </div>
+              <div class="col-md-2 mb-3">
+                  <input type="text" placeholder=" Date" class="form-control" onfocus="(this.type='date')" id="date">
+                </div>
+                <div class="col-md-2 mb-3">
+                  <input type="time" placeholder="time" class="form-control" onfocus="(this.type='time')" id="time">
+                </div>
+                  <div class="col-md-2 mb-3">
+                    <select class="select form-control" style="height: 50px;">
+                      <option selected>Select Car</option>
+                      <option value="1">car 1</option>
+                      <option value="2">car 2</option>
+                      <option value="3">car 3</option>
+                    </select>
+                  </div>
+                <div class="col-md-2 mb-3">
+                  <div class="text-center text-lg-start">
+                    <a href="#" class="btn-read-more scrollto d-inline-flex align-items-center justify-content-center align-self-center"><span><b>BOOK NOW</b></span></a>
+              </div>
+              
+              </div></div>
+            </div>
+          </div></div>
+
+          
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+    <main id="main">
+    <!-- ======= getstared Section ======= -->
+    <section id="about" class="about mt-3">
+
+      <div class="container">
+        <header class="section-header">
+          
+          <p>ABOUT US</p>
+        </header>
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2>WHO ARE WE</h2>
+              <p style="text-align: justify;">
+                Welcome to Pranav Cabs. Our journey began with an aim to make your travel comfortable, safe, memorable and very affordable. We offer all types of travel related services under one roof, which are known for our excellent and efficient travel services provider in Mangalore.
+              </p>
+              <h2>OUR MISSION & MOTTO</h2>
+              <p style="text-align: justify;">“Our mission is to be the leading and most accurate travel agency”. “And our motto is to serve each and every client who wishes to travel, be it a kilometer or thousand miles…..with smiles”.</p>
+              <h2>OUR VISION</h2>
+              <p style="text-align: justify;">“To provide top quality service to our clients, support their travel needs, with integrity and dependability that is the way”.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 hero-img d-flex align-items-center"data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/car.webp" class="img-fluid" alt="width:200px;" style="width: 550px; height: 550px;">
+          </div>
+
+       
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row gy-4">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                  <i class="bi bi-emoji-smile"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                  <i class="bi bi-car-front" style="color: #ee6c20;"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Vehicles</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                  <i class="bi bi-geo-alt" style="color: #15be56;"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>
+                    People pickup
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                  <i class="bi bi-reception-4" style="color: #bb0852;"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="20000" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Road Trips Done</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End Counts Section -->
+    
+        <!-- ======= Features Section ======= -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="service" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          
+          <p>SERVICES</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/rent.jpeg" alt="">
+              <h3>Car Rental</h3>
+              <p style="text-align: justify;">We provide you with the finest range of cars for rental purpose at extremely economical prices.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/rent.jpeg" alt="">
+              <h3>Wedding</h3>
+              <p style="text-align: justify;">We are a foremost firm engaged in providing our clients with luxurious as well as maintained cars on hire for wedding.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/corparate.webp" alt="">
+              <h3>Corporate</h3>
+              <p style="text-align: justify;">Our car rental for corporate is the easiest thing to book and you could be rest assured of getting the best of service.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="row mt-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/rent.jpeg" alt="">
+              <h3>Outstation</h3>
+              <p style="text-align: justify;">We have a large fleet of cars to give on hire for outstation purpose which are luxurious as well as economical for our clients.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/periodic_basic.webp" alt="">
+              <h3>Periodic Basis</h3>
+              <p style="text-align: justify;">Planning to rent a car on periodic basis? Just contact us & try our reliable car rental service to travel in style & luxury.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/airport.webp" alt="">
+              <h3>Airport Pickup & Drop</h3>
+              <p style="text-align: justify;">Travelling to a new city? Don't worry. We also offer hassle free pick up and drop to and from the airport, anytime.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Values Section -->
+
+     <!-- ======= Vehicles Section ======= -->
+     <section id="vehicle" class="vehicle mt-4">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          
+          <p>Vehicles</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/1.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-md-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-md-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+              </div>
+              
+              </div>
+            <!--  <ul>
+                <li><i class="bi bi-people-fill"></i> Passengers : 4</li>
+                <li><i class="bi bi-bag-fill"></i>  Luggage's : 2</li>
+                <li><i class="bi bi-currency-rupee"></i> Base Rate : 00</li>
+                <li><i class="bi bi-fan"></i> Air Conditioners : yes</li>
+              </ul>-->
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/2.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-sm-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-sm-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/3.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-sm-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-sm-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row mt-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/4.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-sm-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-sm-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/1.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-sm-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-sm-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/6.jpeg" class="img-fluid" alt="">
+              <h3>Toyota</h3>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row px-10">
+                <div class="col-sm-6 col-5">
+                 <span><i class="bi bi-people-fill"></i>&nbsp;&nbsp;Passengers</span><br>
+                 <span><i class="bi bi-bag-fill"></i>&nbsp;&nbsp;Luggage's</span><br>
+                 <span><i class="bi bi-fan"></i>&nbsp;&nbsp;AC</span><br>
+                </div>
+                <div class="col-sm-6 col-7" style="text-align: end;">
+                 <span>4</span><br>
+                 <span>2</span><br>
+                 <span>yes</span><br>
+                </div>
+              </div>
+                  <a href="#" class="btn-buy mt-4">Book Now</a>
+              </div>
+                </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Values Section -->
+
+     
+ <!-- ======= Places ======= -->
+ <section id="place" class="recent-blog-posts mt-4">
+
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <p>Places</p>
+    </header>
+
+    <div class="row mb-3">
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/Murudeshwara.jpg" class="img-fluid" alt=""></div>
+          <h3 class="post-title">Murudeshwara</h3>
+          <p style="text-align: justify;">Murdeshwar is a town in Uttara Kannada district in the state of Karnataka, India, It is famous for the world's second tallest Shiva statue, the town lies on the coast of the Arabian Sea.</p>
+          <div class="row">
+            <div class="col-md-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-md-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/Kudroli.jpg" class="img-fluid" alt=""></div>
+          <h3 class="post-title">Kudroli</h3>
+          <p style="text-align: justify;">The temple is 2 km from the centre of Mangalore city. The temple has Gopuram (tower like structure) decorated with murals of various gods and goddesses.</p>
+          <div class="row">
+            <div class="col-sm-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-sm-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/maravanthe.jpg" class="img-fluid" alt=""></div>
+          <h3 class="post-title">Maravanthe</h3>
+          <p style="text-align: justify;">It takes 2 hours, 9 minutes to travel from Mangalore to Maravanthe Beach. Approximate driving distance between Mangalore and Maravanthe Beach is 108 kms or 67.1 miles or 58.3 nautical miles.</p>
+          <div class="row">
+            <div class="col-sm-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-sm-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-4">
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/stmary.jpg" class="img-fluid" alt=""></div>
+          <h3 class="post-title">St. Mary's</h3>
+          <p style="text-align: justify;">St. Mary's viewpoint in Mangalore offers breathtaking panoramic views of the city and the Arabian Sea. Situated atop a hill, it's a serene spot for reflection and sightseeing. The viewpoint is also home to the beautiful St. Mary's Island, known for its unique basalt rock formations and pristine beaches.</p>
+          <div class="row">
+            <div class="col-sm-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-sm-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/pilikula.jpeg" class="img-fluid" alt=""></div>
+          <h3 class="post-title">Pilikula</h3>
+          <p style="text-align: justify;">Pilikula Nisargadhama, located in Mangalore, is a popular eco-tourism destination. It features a stunning botanical garden, zoo, boating facilities, and a lake. Visitors can explore a science center, a heritage village showcasing local culture, and an exhilarating adventure park.</p>
+          <div class="row">
+            <div class="col-sm-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-sm-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/Kadri.png" class="img-fluid" alt=""></div>
+          <h3 class="post-title">Kadri Park</h3>
+          <p style="text-align: justify;">Kadri Park is a picturesque urban green space. It's famous for its historic Kadri Manjunath Temple, dedicated to Lord Shiva. The park includes a beautifully landscaped garden, a children's play area, and a musical fountain. Kadri Park is a tranquil oasis within the bustling city, perfect for relaxation and recreation.</p>
+          <div class="row">
+            <div class="col-sm-6 col-7">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span></a>
+            </div>
+            <div class="col-sm-6 col-5">
+              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span style="margin-left: 70px;">Location</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- End Recent Blog Posts Section -->
+   
+    <!-- ======= F.A.Q Section ======= -->
+   <!-- End F.A.Q Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+   <!-- End Portfolio Section -->
+
+  
+
+    
+
+    <!-- ======= Clients Section ======= -->
+   <!-- End Clients Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+   <!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact mt-4">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Near Mangaladevi temple,<br>Mangalore, Karnataka</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 9740766036<br>+91 9482775749<br>+91 9164118257</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@pranavcabs.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Saturday<br>9:00AM - 05:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/pranavcabslogo.png" alt="">
+              
+            </a>
+            <p style="text-align: justify;">Welcome to Pranav Cabs. Our journey began with an aim to make your travel comfortable, safe, memorable and very affordable. We offer all types of travel related services under one roof, which are known for our excellent and efficient travel services provider in Mangalore.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#values">About </a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#team">Places</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Vehicles</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-12 footer-contact text-md-start" style="text-align: start;">
+            <h4>Contact Us</h4>
+            
+            <span>Near Mangaladevi Temple</span><br>
+            <span>Mangalore</span><br>
+            <span>Karnataka</span><br>
+            <span><strong>Phone:</strong> +91 9164118257</span><br>
+            <span><strong>Email:</strong> info@pranavcabs.com</span><br>
+          
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; 2023 <strong><span style="color:#15be56;">PranavCabs</span></strong>. All Rights Reserved
+      </div>
+   
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
